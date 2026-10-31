@@ -1,0 +1,33 @@
+---
+title: 'Hello, world — welcome to my playground'
+publishedAt: '2026-10-31'
+summary: 'A first post about who I am, what this site is for, and what I plan to write about.'
+---
+
+Hi, I'm Joseph — a back-end developer based in Port Harcourt, Nigeria.
+
+This site is my corner of the web: a place to show the projects I'm building, write down what I learn, and share the tools I use every day.
+
+## What I'll write about
+
+- Building and testing APIs with Python, Flask, FastAPI and Django
+- Notes from my back-end journey (ALX, AltSchool and beyond)
+- Small lessons that would have saved me time
+
+## A tiny example
+
+Here's the kind of snippet you can expect in future posts:
+
+```python
+from fastapi import FastAPI
+
+app = FastAPI()
+
+
+@app.get("/health")
+def health() -> dict[str, str]:
+    return {"status": "ok"}
+```
+
+Thanks for stopping by!
+
